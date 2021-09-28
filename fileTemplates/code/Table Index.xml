@@ -1,0 +1,3 @@
+<index indexType="${TYPE}" referenceId="${REFERENCE}">
+    <column name="${COLUMN}"/>
+</index>

@@ -1,0 +1,8 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+</keymap>

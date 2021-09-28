@@ -1,0 +1,3 @@
+<column xsi:type="${TYPE}" name="${NAME}" scale="${SCALE}" precision="${PRECISION}"
+        unsigned="${UNSIGNED}" nullable="${NULLABLE}" #if(${DEFAULT}) default="${DEFAULT}"#end
+        #if(${COMMENT})comment="${COMMENT}"#end/>

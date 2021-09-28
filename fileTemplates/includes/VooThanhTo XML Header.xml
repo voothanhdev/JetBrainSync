@@ -1,0 +1,26 @@
+#set($companyName = "SMCommerce")
+#set($author = "SMCommerce Core Team <connect@smartosc.com>")
+#set($copyright = "Copyright SMCommerce (http://smartosc.com/)")
+<!--
+/**
+#if(${companyName})
+ * ${companyName}
+ *
+#end
+#if(${COMPANY})
+ * @category  ${COMPANY}
+ * @package   ${COMPANY}_${MODULE}
+ *
+#end
+ * Date: ${MONTH_NAME_FULL}, ${DAY} ${YEAR}
+ * Time: ${TIME}
+ * User: VooThanh DEV
+#if(${author})
+ *
+ * @author    ${author}
+#end
+#if(${copyright})
+ * @copyright ${copyright}
+#end
+ */
+ -->
